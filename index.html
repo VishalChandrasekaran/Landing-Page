@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" sizes="50x50" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Pepsi Website Landing Page</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="index.html" class="logo"><img src="logo.png" alt=""></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Whats's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just a drink<br>It's <span id="star">Pepsi</span></h2>
+                <p>
+                    </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="pepsi001.png" class="pepsico">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="pepsi001.png" onclick="imgSlider('pepsi001.png', '#005cbb')" alt="pepsi001"></li>
+            <li><img src="pepsi002.png" onclick="imgSlider('pepsi002.png', '#c0c0c0 ')" alt="pepsi002"></li>
+            <li><img src="pepsi003.png" onclick="imgSlider('pepsi003.png', '#000')" alt="pepsi003"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/Pepsi/?locale="><img src="facebook.png" id="sic" alt="Facebook Pepsi"></a></li>
+            <li><a href="https://www.instagram.com/pepsi/?hl="><img src="instagram.png" id="sic" alt="Instagram Pepsi"></a></li>
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
